@@ -1,0 +1,2 @@
+--install-extension <ext> --force
+--list-extensions --show-versions

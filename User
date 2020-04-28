@@ -1,0 +1,34 @@
+{
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "window.zoomLevel": 0,
+    "python.envFile": "${workspaceFolder}/venv/bin/python",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Material Theme High Contrast",
+    "workbench.settings.useSplitJSON": true,
+    "workbench.settings.openDefaultSettings": true,
+    "terminal.integrated.inheritEnv": false,
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName",
+    },
+    "code-runner.showExecutionMessage": true,
+    "code-runner.clearPreviousOutput": true,
+    "editor.formatOnSave": true,
+    "[json]": {
+        "editor.defaultFormatter": "remimarsal.prettier-now"
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "git.autofetch": true,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "[python]": {
+        "editor.defaultFormatter": "remimarsal.prettier-now"
+    },
+    "workbench.settings.editor": "json"
+}
